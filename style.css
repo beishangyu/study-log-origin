@@ -1,0 +1,141 @@
+:root {
+  color: #1f2328;
+  background: #f6f8fa;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  line-height: 1.5;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.page {
+  width: min(900px, calc(100% - 32px));
+  margin: 0 auto;
+  padding: 56px 0;
+}
+
+.page-header {
+  margin-bottom: 40px;
+}
+
+.eyebrow {
+  margin: 0 0 8px;
+  color: #656d76;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+h1,
+h2 {
+  margin: 0;
+  line-height: 1.2;
+}
+
+h1 {
+  font-size: clamp(2rem, 5vw, 3.2rem);
+}
+
+h2 {
+  font-size: 1.6rem;
+}
+
+.page-header p:last-child {
+  color: #656d76;
+  font-size: 1.1rem;
+}
+
+.starred-repositories {
+  padding: 28px;
+  border: 1px solid #d0d7de;
+  border-radius: 12px;
+  background: #fff;
+}
+
+.section-heading {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 20px;
+}
+
+.repository-count {
+  color: #656d76;
+  font-size: 0.9rem;
+}
+
+.status {
+  margin: 0 0 16px;
+  color: #656d76;
+}
+
+.repository-list {
+  display: grid;
+  gap: 12px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.repository {
+  padding: 20px;
+  border: 1px solid #d8dee4;
+  border-radius: 8px;
+}
+
+.repository a {
+  color: #0969da;
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.repository a:hover,
+.repository a:focus-visible {
+  text-decoration: underline;
+}
+
+.repository-description {
+  margin: 8px 0 14px;
+  color: #656d76;
+}
+
+.repository-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin: 0;
+  color: #656d76;
+  font-size: 0.9rem;
+}
+
+footer {
+  margin-top: 24px;
+  text-align: center;
+}
+
+footer a {
+  color: #0969da;
+}
+
+@media (max-width: 520px) {
+  .page {
+    padding: 32px 0;
+  }
+
+  .starred-repositories {
+    padding: 20px;
+  }
+
+  .section-heading {
+    align-items: start;
+    flex-direction: column;
+  }
+}

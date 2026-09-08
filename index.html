@@ -1,18 +1,37 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
-  <head> 
-    <title>一个小孩开始尝试学习github和软件工程的第一步 </title>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>学习 GitHub 和软件工程</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <p>简单写写</p>
-    <hr>
-    <h1>我想要同时学前端和软件工程</h1>
-    <p>说实话 其实我并不怎么懂github的操作和软件工程到底学什么</p>
-    <hr>
-    <h2>当前正在w3school上面学习html</h2>
-    <p>说实话现在已经有点搞不懂html的格式和什么h a p body title 还有head src什么的已经晕了<br>下面是w3s的快捷跳转</p>
-    <a href="https://www.w3school.com.cn/html/html_attributes.asp"> 访问w63s </a>
-    <p>接下来是GitHub的开始文档</p>
-    <a href="https://docs.github.com/en/get-started/start-your-journey/creating-a-repository-for-your-project-on-github">新的开始</a>
+    <main class="page">
+      <header class="page-header">
+        <p class="eyebrow">我的学习记录</p>
+        <h1>我想要同时学前端和软件工程</h1>
+        <p>记录学习 GitHub、前端和软件工程时收藏的项目。</p>
+      </header>
+
+      <section class="starred-repositories" aria-labelledby="starred-heading">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">GitHub 收藏</p>
+            <h2 id="starred-heading">Starred repositories</h2>
+          </div>
+          <span id="repository-count" class="repository-count" aria-live="polite"></span>
+        </div>
+        <p id="repository-status" class="status" role="status">正在加载收藏的项目...</p>
+        <ul id="repository-list" class="repository-list"></ul>
+      </section>
+
+      <footer>
+        <a href="https://docs.github.com/en/get-started/start-your-journey/creating-a-repository-for-your-project-on-github">
+          GitHub 开始文档
+        </a>
+      </footer>
+    </main>
+    <script src="script.js"></script>
   </body>
 </html>

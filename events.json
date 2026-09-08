@@ -1,0 +1,30 @@
+[
+  {
+    "name": "freeCodeCamp/freeCodeCamp",
+    "description": "The open-source curriculum for learning web development.",
+    "language": "JavaScript",
+    "stars": 414000,
+    "url": "https://github.com/freeCodeCamp/freeCodeCamp"
+  },
+  {
+    "name": "microsoft/Web-Dev-For-Beginners",
+    "description": "A 12-week, 24-lesson curriculum for web development beginners.",
+    "language": "JavaScript",
+    "stars": 87000,
+    "url": "https://github.com/microsoft/Web-Dev-For-Beginners"
+  },
+  {
+    "name": "EbookFoundation/free-programming-books",
+    "description": "A list of free learning resources for programmers.",
+    "language": "Markdown",
+    "stars": 340000,
+    "url": "https://github.com/EbookFoundation/free-programming-books"
+  },
+  {
+    "name": "ossu/computer-science",
+    "description": "A complete education in computer science using online materials.",
+    "language": "HTML",
+    "stars": 250000,
+    "url": "https://github.com/ossu/computer-science"
+  }
+]
